@@ -1,0 +1,67 @@
+body{
+  font-family: 'Calibri', sans-serif;
+  line-height: 22px;
+  background: url('../images/fundo.jpg')
+}
+
+h1{
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+
+.container{
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.drone{
+  background: rgb(255, 255, 255);
+  margin: 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+  border: 1px solid rgba(204, 204, 204, 0.986);
+}
+
+.drone, h2{
+    margin: 0px;
+    border-bottom: 1px dashed rgb(141, 177, 34);
+    color: rgb(38, 66, 64);
+}
+
+.fonte{
+  text-align: right;
+}
+
+.dronetwitter{
+  margin: 0px;
+  border-bottom: 1px dashed rgb(149, 185, 40);
+  text-align: right;
+}
+
+.drone a{
+  text-decoration: none;
+  font-weight: 900;
+  color:  rgb(43, 141, 173);
+
+}
+
+.drone a:hover{
+  color: rgb(219, 41, 76);
+}
+
+img{
+  width: 110px;
+  height: 70px;
+  border: 1px solid rgb(111, 136, 35);
+  margin: 10px 10px 0 0;
+  padding: 20px;
+  float: left;
+}
+
+.final{
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
